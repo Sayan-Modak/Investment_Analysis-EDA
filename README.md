@@ -151,8 +151,6 @@ Economic_EDA_Project
 │   └── Comparative_Analysis_Graphs/
 │
 ├── README.md
-│
-└── LICENSE
 ```
 
 ---
