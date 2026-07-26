@@ -6,10 +6,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 </div>
 
@@ -40,7 +38,7 @@ Unlike many beginner projects that rely on curated Kaggle datasets, this project
 
 ### Source
 
-- **World Bank – World Development Indicators (WDI)**
+- **World Bank – [World Development Indicators (WDI)](https://data.worldbank.org/country/india)**
 
 ### Study Area
 
@@ -49,10 +47,6 @@ Unlike many beginner projects that rely on curated Kaggle datasets, this project
 ### Time Period
 
 - 2014–2025
-
-### Observation Frequency
-
-- Annual
 
 ### Primary Indicators
 
@@ -127,31 +121,34 @@ Key Findings
 
 ## 🛠️ Technologies Used
 
-| Category      | Tools            |
-| ------------- | ---------------- |
-| Programming   | Python           |
-| Data Analysis | Pandas, NumPy    |
-| Visualization | Matplotlib       |
-| Notebook      | Jupyter Notebook |
+| Category      | Tools         |
+| ------------- | ------------- |
+| Programming   | Python        |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib    |
+| Notebook      | Google Colab  |
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-Investment-Trends-India-EDA
+Economic_EDA_Project
 │
 ├── Dataset/
-│   └── world_bank_dataset.csv
+│   └── WorldBank_IND_Dataset.xls
 │
-├── Notebook/
-│   └── investment_trends_india_eda.ipynb
+├── Notebooks/
+│   └── Economic_EDA_.ipynb
 │
-├── Report/
-│   └── Investment_Trends_India_EDA_Report.pdf
+├── Reports/
+│   └── Economic_Analysis_EDA_Report.docx
+│   └── Economic_Analysis_EDA_Report.pdf
 │
-├── Images/
-│   └── charts/
+├── Visualizations/
+│   └── GCF/
+│   └── FDI/
+│   └── Comparative_Analysis_Graphs/
 │
 ├── README.md
 │
@@ -179,7 +176,6 @@ Investment-Trends-India-EDA
 - Analysis limited to India.
 - Only two investment indicators were analyzed.
 - Dataset contains missing observations.
-- Annual data may not capture short-term fluctuations.
 - Findings describe relationships rather than causation.
 
 </details>
@@ -200,7 +196,7 @@ Investment-Trends-India-EDA
 
 ## 📄 Report
 
-The complete report is available in the **Report/** directory.
+The complete report is available in the **Reports/** directory.
 
 ---
 
@@ -213,8 +209,6 @@ World Bank
 https://data.worldbank.org/
 
 ---
-
-## 📜 License
 
 This project is intended for educational and portfolio purposes.
 
